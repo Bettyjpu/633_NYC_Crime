@@ -19,6 +19,7 @@ library(shiny)
 library(shinydashboard)
 library(tidyr)
 library(leaflet)
+library(data.table)
 ```
 
 
@@ -139,6 +140,9 @@ g+geom_point() + theme(plot.subtitle = element_text(vjust = 1),
         angle = 80))
 
 ```
+
+
+
 
 
 
